@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="2" name="madhu">
+        <classes>
+            <class name="com.project.config.HomeTests">
+                <methods>
+                    <include name="homePageTitle" />
+                </methods>
+            </class>
+            <class name="com.project.config.LoginTest">
+                <methods>
+                    <include name="loginTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
