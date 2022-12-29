@@ -6,19 +6,24 @@ import org.openqa.selenium.By;
 
 public class Loginpage {
     private static final
-    By txtboxUsername= By.xpath("//div/input[@name='username']");
+    By TXTBOX_USERNAME= By.xpath("//div/input[@name='username']");
     private static final
-    By txtboxPassword=By.xpath("//div/input[@name='password']");
+    By TXTBOX_PASSWORD=By.xpath("//div/input[@name='password']");
     private static final
-    By btnSubmit= By.xpath("//button[@type='submit']");
+    By BTN_SUBMIT= By.xpath("//button[@type='submit']");
 
-    public  void setTxtboxUsername(String username){
-        DriverManager.getDriver().findElement(txtboxUsername).sendKeys(username);
+    private void setTxtboxUsername(String username){
+        DriverManager.getDriver().findElement(TXTBOX_USERNAME).sendKeys(username);
     }
-    public  void setTxtboxPassword(String password){
-        DriverManager.getDriver().findElement(txtboxPassword).sendKeys(password);
+    private  void setTxtboxPassword(String password){
+        DriverManager.getDriver().findElement(TXTBOX_PASSWORD).sendKeys(password);
     }
-    public  void clickBtnSubmit(){
-        DriverManager.getDriver().findElement(btnSubmit).click();
+    private void clickBtnSubmit(){
+        DriverManager.getDriver().findElement(BTN_SUBMIT).click();
+    }
+    public void loginToApplication(String userName,String password){
+        setTxtboxUsername(userName);
+        setTxtboxPassword(password);
+        clickBtnSubmit();
     }
 }
