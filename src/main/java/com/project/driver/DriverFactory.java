@@ -14,28 +14,31 @@ public final class  DriverFactory {
     private DriverFactory(){
 
     }
-    public static WebDriver getDriver(String browserName){
-        WebDriver driver;
-        if(browserName.equals("chrome")){
-            WebDriverManager.chromedriver().setup();
-            driver=new ChromeDriver();
-        }
-        else if (browserName.equals("edge")) {
-            WebDriverManager.edgedriver().setup();
-            driver=new EdgeDriver();
-        }
-        else if (browserName.equals("remote")) {
-            DesiredCapabilities capabilities=new DesiredCapabilities();
-            capabilities.setBrowserName("chrome");
-            try {
-                driver = new RemoteWebDriver(new URL("http://localhost:4444/"),capabilities);
-            } catch (MalformedURLException e) {
-                throw new RuntimeException(e);
+    public static WebDriver getDriver(String browserName ,String executionArea) throws MalformedURLException {
+        WebDriver driver = null;
+        if(executionArea.equals("local")) {
+            if (browserName.equals("chrome")) {
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+            } else if (browserName.equals("edge")) {
+                WebDriverManager.edgedriver().setup();
+                driver = new EdgeDriver();
+            } else {
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
             }
         }
-        else {
-            WebDriverManager.chromedriver().setup();
-            driver=new ChromeDriver();
+        else if (executionArea.equals("remote")) {
+            DesiredCapabilities capabilities=new DesiredCapabilities();
+            if(browserName.equals("chrome")){
+                capabilities.setBrowserName("chrome");
+            } else if (browserName.equals("edge")) {
+                capabilities.setBrowserName("edge");
+            }
+            else{
+                capabilities.setBrowserName("chrome"); 
+            }
+                driver = new RemoteWebDriver(new URL("http://localhost:4444/"),capabilities);
         }
         return driver;
     }
