@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c1723ed-f53e-4d5e-b93f-e917be0fc6fe" name="Changes" comment="fourth">
-      <change afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/annotation/CustomAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/constants/FrameworkConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/enums/WaitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/listeners/TestListner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/pages/pagecomponents/FooterMenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/pages/pagecomponents/SideMeneComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/reports/ExtentLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/reports/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/reports/ExtentReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/utils/ScreenshotUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/utils/SeliniumUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/Testdata.xlsx" afterDir="false" />
+    <list default="true" id="5c1723ed-f53e-4d5e-b93f-e917be0fc6fe" name="Changes" comment="at nearing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/config/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/driver/DriverExecutables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/driver/DriverExecutables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/driver/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/pages/Loginpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/pages/Loginpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/config/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/config/HomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/config/HomeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/config/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/config/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672365619185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="at nearing">
+      <created>1672584313126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672584313126</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +204,7 @@
     <MESSAGE value=" second" />
     <MESSAGE value="third" />
     <MESSAGE value="fourth" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourth" />
+    <MESSAGE value="at nearing" />
+    <option name="LAST_COMMIT_MESSAGE" value="at nearing" />
   </component>
 </project>
